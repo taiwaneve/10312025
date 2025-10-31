@@ -77,4 +77,8 @@ def delete_student():
     (student_id,))
     print ('Following row is delete:', delete)
     conn.commit()
-root.mainloop()
+
+botton_delete = tk. Button(root, text='Delete', command=delete_student)
+botton_delete.pack(pady=25)#00
+
+root.mainloop()#123
