@@ -77,3 +77,4 @@ def delete_student():
     (student_id,))
     print ('Following row is delete:', delete)
     conn.commit()
+root.mainloop()
